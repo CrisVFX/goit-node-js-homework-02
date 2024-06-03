@@ -19,7 +19,7 @@ router.get("/:contactId", authenticateToken, ctrlWrapper(getContactById));
     "phone": "(639) 840-6611"
 } 
 */
-router.post("/", authenticateToken, ctrlWrapper(addContact));
+router.post("/", ctrlWrapper(addContact));
 
 /* DELETE: // http://localhost:3000/api/contacts/:contactId */
 router.delete("/:contactId", authenticateToken, ctrlWrapper(deleteContactById));
