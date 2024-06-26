@@ -1,0 +1,4 @@
+1. nodemailer
+2. setup .env (GMAIL_EMAIL, GMAIL_PASSWORD)
+3. Helpers (sendEmail.js)
+4. usersController.js (verifyEmail,signupUser, resenderVerifyEmail)
